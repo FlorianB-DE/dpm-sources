@@ -1,0 +1,15 @@
+docker-hub:
+  python:
+    commands:
+      - python
+      - pip
+    # image: python (infered)
+  
+  node:
+    commands:
+      - node
+      - npm
+      - yarn
+
+
+  
